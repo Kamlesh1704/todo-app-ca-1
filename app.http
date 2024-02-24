@@ -1,0 +1,24 @@
+PUT http://localhost:3000/todos/1/
+Content-Type:application/json
+{ "status": "DONE" }
+PUT http://localhost:3000/todos/2/
+Content-Type:application/json
+{ "dueDate": "201-0771-12" }
+###
+DELETE http://localhost:3000/todos/:todoId/
+###
+GET http://localhost:3000/todos/1/
+###
+
+GET http://localhost:3000/agenda/?date=2021-04-04
+###
+POST http://localhost:3000/todos/
+Content-Type:application/json
+{
+ "id": 6,
+ "todo": "Finalize event theme",
+ "priority": "LOW",
+ "status": "TO DO",
+ "category": "HOME",
+ "dueDate": "2021-02-22"
+}
