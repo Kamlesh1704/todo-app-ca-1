@@ -1,6 +1,6 @@
 # Todo Application
 
-Given an `app.js` file and an empty database file `todoApplication.db`.
+Given a `app.js` file and an empty database file `todoApplication.db`.
 
 Create a table with the name `todo` with the following columns,
 
